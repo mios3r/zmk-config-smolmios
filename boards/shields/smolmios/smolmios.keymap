@@ -41,8 +41,9 @@
             bindings = <
                 &bt BT_SEL 1     &bt BT_SEL 2    &to 0
                 &none            &none           &none                          
-                &bootloader      &none           &bt BT_CLR
+                &bootloader      &none           &bt BT_CLR_ALL
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            >;
         };
 
     };
