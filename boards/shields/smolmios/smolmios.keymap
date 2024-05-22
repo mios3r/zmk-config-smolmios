@@ -30,7 +30,7 @@
             bindings = <
                 &none               &none               &to 2
                 &none               &kp LG(LS(UP))      &trans                          
-                &kp LG(LS(LEFT))    &kp LG(LS(DOWN))    &kp LG(LS(RIGTH))
+                &kp LG(LS(LEFT))    &kp LG(LS(DOWN))    &kp LG(LS(RIGHT))
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
