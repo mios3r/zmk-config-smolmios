@@ -1,0 +1,6 @@
+if SHIELD_SMOLMIOS
+
+config ZMK_KEYBOARD_NAME
+    default "smolmios"
+
+endif
