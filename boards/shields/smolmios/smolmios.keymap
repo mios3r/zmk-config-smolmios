@@ -20,7 +20,7 @@
                 &kp C_PP      &kp UP        &mo 1
                 &kp LEFT      &kp DOWN      &kp RIGHT
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         }; 
 
 
@@ -28,11 +28,11 @@
             display-name = "FUNC";
 
             bindings = <
-                &none               &none               &to 2
-                &none               &kp LG(LS(UP))      &trans                          
+                &kp F22             &kp F23             &to 2
+                &kp F24             &kp LG(LS(UP))      &trans                          
                 &kp LG(LS(LEFT))    &kp LG(LS(DOWN))    &kp LG(LS(RIGHT))
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
 
         connection_layer {
@@ -43,7 +43,7 @@
                 &none            &none           &none                          
                 &bootloader      &none           &bt BT_CLR_ALL
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp &none &none>;
         };
 
     };
