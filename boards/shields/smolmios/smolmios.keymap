@@ -43,7 +43,7 @@
                 &none            &none           &none                          
                 &bootloader      &none           &bt BT_CLR_ALL
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp &none &none>;
         };
 
     };
