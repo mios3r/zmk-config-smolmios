@@ -37,11 +37,11 @@
 
         connection_layer {
             display-name = "CONN";
-
+            
             bindings = <
-                &bt BT_SEL 1     &bt BT_SEL 2    &to 0
-                &none            &none           &none                          
-                &bootloader      &none           &bt BT_CLR_ALL
+                &none               &none               &to 2
+                &none               &kp LG(LS(UP))      &trans                          
+                &kp LG(LS(LEFT))    &kp LG(LS(DOWN))    &kp LG(LS(RIGHT))
             >;
             sensor-bindings = <&inc_dec_kp &none &none>;
         };
