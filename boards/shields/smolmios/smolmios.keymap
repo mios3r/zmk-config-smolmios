@@ -28,8 +28,8 @@
             display-name = "FUNC";
 
             bindings = <
-                &kp F22             &kp F23             &to 2
-                &kp F24             &kp LG(LS(UP))      &trans                          
+                &kp F21             &kp F22             &to 2
+                &kp F23             &kp LG(LS(UP))      &trans                          
                 &kp LG(LS(LEFT))    &kp LG(LS(DOWN))    &kp LG(LS(RIGHT))
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
